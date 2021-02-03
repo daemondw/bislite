@@ -27,6 +27,7 @@ li{
 
 .header{
     background-color: #e8ebf1;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.07);
 }
 
 .header__inner{
@@ -77,7 +78,7 @@ li{
     height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: all .3s;
+
     position: absolute;
     width: 200px;
     background-color: #fff;
@@ -122,6 +123,7 @@ li{
     height: auto;
     overflow: visible;
     opacity: 1;
+    transition: all .3s;
 }
 .header__drop-down.drop-down:hover > a{
     color: #2aacc8;
@@ -129,8 +131,10 @@ li{
     background-color: #fff;
     transition: all .3s;
 }
-
-
+.slider{
+    background-color: #81e4ed;
+    padding: 20px 0 40px;
+}
 
 
 
