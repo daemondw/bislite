@@ -79,7 +79,7 @@ li{
     height: 0;
     overflow: hidden;
     opacity: 0;
-
+    z-index: 2;
     position: absolute;
     width: 200px;
     background-color: #fff;
@@ -132,9 +132,12 @@ li{
     background-color: #fff;
     transition: all .3s;
 }
+
+/********* header end  *************/
+
 .slider{
     background-color: #81e4ed;
-    padding: 20px 0 40px;
+    padding: 20px 0 10px;
 }
 
 .slider__item{
@@ -151,3 +154,49 @@ li{
     padding-top: 90px;
 }
 
+.slick-dots li button{
+    width: 14px;
+    height: 14px;
+    background-color: rgba(98, 98, 98, .5);
+    border-radius: 50%;
+}
+.slick-dots li.slick-active button{
+    background-color: #fff;
+}
+.slick-dots li button:before{
+    display: none;
+}
+.slick-dots li{
+    margin: 0 9px;
+    width: auto;
+    height: auto;
+}
+
+/************     slider end     ***********/
+
+.items{
+    background-color: #e8ebf1;
+    padding: 60px 0 50px;
+}
+.items__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width: 225px;
+    font-family: 'arial', sans-serif;
+}
+.item__title{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 10px 0 0 60px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.item__icons{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
