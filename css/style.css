@@ -46,13 +46,13 @@ li {
     height: 120px;
 }
 
-.header__logo a {
+.header__logo, .footer__logo a {
     color: #2aacc8;
     font-size: 50px;
     font-weight: 400;
 }
 
-.header__logo a span {
+.header__logo, .footer__logo a span {
     color: #000;
     font-weight: 700;
 }
@@ -427,7 +427,8 @@ li {
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), inset 0 2px 1px 0 rgba(255, 255, 255, 0.1);
     background: linear-gradient(to top, rgb(42, 172, 200) 0%, rgb(96, 206, 222) 15%, rgb(114, 218, 230) 50%, rgb(129, 228, 237) 100%);
 }
-.download__btn a::before{
+
+.download__btn a::before {
     content: '';
     position: absolute;
     background-image: url('../images/clients/download.svg');
@@ -437,4 +438,92 @@ li {
     left: 19px;
 }
 
+/**********************      footer start     ***************************/
+.footer {
+    background-color: #e8ebf1;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-top: 1px solid #d9d9d9;
+    font-family: 'arial', sans-serif;
+}
 
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.footer__items-title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer__item-content {
+    width: 240px;
+}
+
+.footer__text {
+    padding-top: 25px;
+    font-size: 14px;
+    color: #363636;
+}
+
+.footer__item-list {
+    width: 115px;
+}
+
+.footer__list {
+    padding-top: 10px;
+}
+
+.footer__list li {
+    display: block;
+}
+
+.footer__list a {
+    color: #363636;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.footer__item-contact {
+    width: 150px;
+}
+
+.footer__address {
+    padding-top: 25px;
+    color: #363636;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.footer__address span {
+    display: block;
+    font-weight: 700;
+}
+
+.footer__phone {
+    color: #363636;
+    font-size: 14px;
+}
+
+.footer__item-social {
+    width: 185px;
+}
+
+.footer__social{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__copy{
+    width: 650px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #363636;
+}
