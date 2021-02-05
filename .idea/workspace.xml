@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +16,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nv3NFNHuhOCgF0AY6j6CW02713" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
@@ -45,7 +49,9 @@
       <workItem from="1612336760195" duration="1040000" />
       <workItem from="1612374521141" duration="675000" />
       <workItem from="1612383192663" duration="3702000" />
-      <workItem from="1612421580635" duration="3953000" />
+      <workItem from="1612421580635" duration="4035000" />
+      <workItem from="1612462597824" duration="5418000" />
+      <workItem from="1612507738438" duration="119000" />
     </task>
     <servers />
   </component>
@@ -53,6 +59,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="761" y="361" key="#Notifications" timestamp="1612507856949">
+      <screen x="0" y="25" width="1440" height="832" />
+    </state>
+    <state x="761" y="361" key="#Notifications/0.25.1440.832@0.25.1440.832" timestamp="1612507856949" />
     <state x="726" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612389768010">
       <screen x="0" y="25" width="1440" height="832" />
     </state>
