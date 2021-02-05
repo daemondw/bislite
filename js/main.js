@@ -12,4 +12,12 @@ $(function(){
         nextArrow: '<button class="slick-arrow slick-next"><img src="images/slider/slide-right.svg" alt=""></button>',
     });
 
+    $('.header__menu-btn').on('click', function (){
+        $('.header__menu > ul').slideToggle();
+    });
+
+    $('.header__drop-down.drop-down').on('click', function (){
+        $('.drop-down__list').slideToggle();
+    });
+
 });

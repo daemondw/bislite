@@ -157,6 +157,16 @@ li {
     transition: all .3s;
 }
 
+.header__menu-btn{
+    width: 30px;
+    display: none;
+}
+.header__menu-row{
+    width: 100%;
+    background-color: #000;
+    height: 4px;
+    margin-bottom: 4px;
+}
 /********* header end  *************/
 
 .slider {
